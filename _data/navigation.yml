@@ -1,0 +1,10 @@
+# main links
+main:
+  - title: "About ME"
+    url: https://www.notion.so/pgnu/Geonu-Park-55ac00e7718f4b118e72229a2e7944c5
+  - title: "Category"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "Archive"
+    url: /year-archive/    

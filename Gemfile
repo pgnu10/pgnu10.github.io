@@ -1,5 +1,10 @@
 source "https://rubygems.org"
 
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
+
+# source "https://rubygems.org"
+
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -25,13 +30,13 @@ source "https://rubygems.org"
 #
 
 # use local theme gem for testing
-gem "minimal-mistakes-jekyll", path: "./"
-group :jekyll_plugins do
-  gem 'jekyll-algolia', '~> 1.0'
-end
+# gem "minimal-mistakes-jekyll", path: "./"
+# group :jekyll_plugins do
+#   gem 'jekyll-algolia', '~> 1.0'
+# end
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
-gem "webrick"
+# gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# gem "webrick"
 
 # If you have any other plugins, put them here!
 # Cf. https://jekyllrb.com/docs/plugins/installation/

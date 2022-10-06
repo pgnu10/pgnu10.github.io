@@ -99,7 +99,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-  - "https://www.notion.so/pgnu/Geonu-Park-55ac00e7718f4b118e72229a2e7944c5"
+  - "https://pgnu.notion.site/pgnu/Geonu-Park-55ac00e7718f4b118e72229a2e7944c5"
 
 # Analytics
 analytics:
@@ -123,7 +123,7 @@ author:
       url: "mailto:afnf33@gmail.com"
     - label: "Notion"
       icon: "fas fa-fw fa-info-circle"
-      url: "https://www.notion.so/pgnu/Geonu-Park-55ac00e7718f4b118e72229a2e7944c5"
+      url: "https://pgnu.notion.site/pgnu/Geonu-Park-55ac00e7718f4b118e72229a2e7944c5"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"

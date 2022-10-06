@@ -56,7 +56,7 @@ comments:
 reCaptcha:
   enabled                : true
   siteKey                : "6LdC4VYiAAAAAEEdzcMME6Nwv8km3ZNaxxRCGr4-"
-  secret                 : "6LdC4VYiAAAAAJuVIoSjPUVq0R5tokTGBJ_2XIz2"
+  secret                 : 
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : true # true, false (default)

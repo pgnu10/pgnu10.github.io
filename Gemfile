@@ -12,9 +12,9 @@ source "https://rubygems.org"
 # gem "github-pages", group: :jekyll_plugins
 
 # To upgrade, run `bundle update`.
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+# gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 # gem "jekyll", "~> 3.7"
-gem "minimal-mistakes-jekyll"
+# gem "minimal-mistakes-jekyll"
 # gem "kramdown-parser-gfm"
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
@@ -24,7 +24,16 @@ gem "minimal-mistakes-jekyll"
 #   gem "jekyll-include-cache"
 #
 
+# use local theme gem for testing
+gem "minimal-mistakes-jekyll", path: "./"
+group :jekyll_plugins do
+  gem 'jekyll-algolia', '~> 1.0'
+end
+
+gem "wdm", "~> 0.1.0" if Gem.win_platform?
+gem "webrick"
+
 # If you have any other plugins, put them here!
 # Cf. https://jekyllrb.com/docs/plugins/installation/
-group :jekyll_plugins do
-end
+# group :jekyll_plugins do
+# end
